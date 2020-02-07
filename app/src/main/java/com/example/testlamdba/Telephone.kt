@@ -1,6 +1,6 @@
 package com.example.testlamdba
 
-data class Telephone private constructor(var whoCallMe : String){
+data class Telephone (var whoCallMe : String){
 
     var title: String = "default value"
     set(value) {
